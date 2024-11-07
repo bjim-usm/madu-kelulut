@@ -1,0 +1,208 @@
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    max-width: 1024px;
+    height: 900px;
+    h1{
+        font-family: $title-font-family;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    img {
+        height: 100px;
+    }
+  
+    @include media-query($on-palm) {
+        height: 600px;
+
+        h1 {
+            font-size: 2em;
+        }
+
+        img {
+            height: 50px;
+        }
+    }
+}
+
+
+
+.store-list-div {
+    // @include full-width-bg($beige);
+    position: relative;
+    margin: 0 auto; // Center the parent container
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100vw;
+        height: 100%;
+        margin-left: -50vw;
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.15)), url('/assets/background1.jpg');
+        background-size: cover; // Ensure the image covers the entire width
+        background-position: center; // Center the image
+        z-index: -1; // Place it behind the content
+    }
+}
+
+.content-wrapper {
+    position: relative; // Establish stacking context
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    // height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // Additional content styles
+    .store-description {
+        text-align: center;
+        font-size: large;
+        margin-bottom: 64px;
+    }
+    p {
+        margin-bottom: 0;
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    .store-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 0;
+    list-style-type: none;
+    
+        .store-logo {
+            height: 80px;
+            border-radius: 5%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    
+    }
+
+    h1 {
+        text-align: center;
+        margin-top : 64px;
+    }
+
+    @include media-query($on-palm) {
+        h1 {
+            font-size: 1.6em;
+        }
+        img {
+            height: 50px !important ;
+        }
+    }
+  }
+
+.innovate-div {
+    margin-bottom: 64px;
+    width: 100%;
+    .header {
+        margin-top: 64px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+     
+        width: 100%;
+        height: 350px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: $ecru;
+        
+    }
+    .compare-list{
+        display : flex;
+        // justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .image-list{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    img {
+        max-width: 200px;
+        border-radius: 8px;
+        max-height: 250px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .innovate-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 16px;
+        flex: 1;
+    }
+    .innovate-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 16px;
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    @include media-query($on-palm) {
+
+        h1 {
+            font-size: 1.6em;
+        }
+
+        .header {
+            margin-top: 32px;
+            margin-bottom : 16px;
+        }
+
+        img {
+            max-width: 150px;
+            max-height: 150px;
+        }
+
+        .compare-list {
+            justify-content: center;
+        }
+
+        .innovate-row {
+            flex-direction: column;
+            padding: 0px;
+        }
+        .innovate-col {
+            padding: 0px 0px 16px 0px;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                text-align: center;
+                max-width: 350px;
+            }
+        }
+
+    }
+}
