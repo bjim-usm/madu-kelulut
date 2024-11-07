@@ -13,7 +13,7 @@ layout: home
     width: 100vw;
     height: 100%;
     margin-left: -50vw;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.15)), url('{{ '/assets/background1.jpg' | relative_url }}');
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.15)), url('{{ '/assets/background1.JPG' | relative_url }}');
     background-size: cover;
     background-position: center;
     z-index: -1;
