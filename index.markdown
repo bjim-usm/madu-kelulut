@@ -4,6 +4,21 @@
 
 layout: home
 ---
+<style>
+.store-list-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    margin-left: -50vw;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.15)), url('{{ '/assets/background1.jpg' | relative_url }}');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+</style>
 <div>
     <div class="main-title">
         <lottie-player src="{{ "/assets/lottie.json" | relative_url }}" background="transparent" speed="1"  direction="1" mode="normal" autoplay style=" width: 100%"></lottie-player>
