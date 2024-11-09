@@ -86,5 +86,122 @@ layout: home
             </div>
         </div>
     </div>
+    <div class="feedback-div">
+        <div>
+            <h1>Experience the irresistible allure of Stingless Bee Honey’s exotic taste that people simply can't get enough of</h1>
+        </div>
+        <div class="card-list">
+            <div class="card">
+                <div class="comment">
+                "The product worth every penny. The packaging and quality of the honey is excellent because it has gone through various R&D stages. I would recommend this as a staple superfood that every household should have."
+                </div>
+                <div class="rate-div">
+                    <div class="stars-div">
+                        <div class="stars">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                        </div>
+                        <div class="username">
+                            azizmadani
+                        </div>
+                    </div>
+                    <div class="profile"><img src="{{"/assets/profile/profile1.webp" | relative_url }}"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="comment">
+                "Alhamdulillah madu sampai dengan packaging yang baik. Rasa asli madu yang sedap. Harga berpatutan dengan kualiti yang terbaik."
+                </div>
+                <div class="rate-div">
+                    <div class="stars-div">
+                        <div class="stars">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                        </div>
+                        <div class="username">
+                            nikaisyahnajwa
+                        </div>
+                    </div>
+                    <div class="profile"><img src="{{"/assets/profile/profile2.jpg" | relative_url }}"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="comment">
+                "Pernah rasa madu kelulut yang lain sebelum ni, rasa masam. Tapi madu kelulut ni, rasa manis Masha-Allah. Sedap! 
+                Teknologi yang Dr. Zulkifli hasilkan untuk mengurangkan air dalam madu dan seterusnya mengelakkan proses penapaian dalam madu memang menjadikan madu kelulut ni rasa sedap."
+                </div>
+                <div class="rate-div">
+                    <div class="stars-div">
+                        <div class="stars">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                        </div>
+                        <div class="username">
+                            _missayesha
+                        </div>
+                    </div>
+                    <div class="profile"><img src="{{"/assets/profile/profile3.jpg" | relative_url }}"></div>
+                </div>
+            </div>
+             <div class="card">
+                <div class="comment">
+                "Alhamdulillah madu sampai dalam keadaan selamat. Anak-anak suka makan, kalau tak sorok, sekejap ja habis ni. 😂 Positif covid, dengan ikhtiar untuk tingkatkan imuniti makan madu kelulut. InshaaAllah lepas ni repeat lagi"
+                </div>
+                <div class="rate-div">
+                    <div class="stars-div">
+                        <div class="stars">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                        </div>
+                        <div class="username">
+                            nasriah68
+                        </div>
+                    </div>
+                    <div class="profile"><img src="{{"/assets/profile/profile4.jpg" | relative_url }}"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="comment">
+                "Shipped out by seller - fast <br>
+                Delivered by courier (shopee express) - fast<br>
+                Packaging - good<br>
+                Product condition and quality - good<br>
+                Customer service - good<br>
+                Thank you seller"
+                </div>
+                <div class="rate-div">
+                    <div class="stars-div">
+                        <div class="stars">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                            <img src="{{"/assets/star.svg" | relative_url }}">
+                        </div>
+                        <div class="username">
+                            a*****i
+                        </div>
+                    </div>
+                    <div class="profile"><img src="{{"/assets/profile/profile5.jpg" | relative_url }}"></div>
+                </div>
+            </div>
+        </div>
+        <div class="learn-more-div">
+            <a class="buy-now-button" href="buy.html" >Buy Now</a>
+            <a class="learn-more-button" href="studies.html">Learn More</a>
+        </div>
+    </div>
     
 </div>

@@ -110,7 +110,7 @@
         width: 100%;
         height: 350px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        background-color: $ecru;
+        background-color: $selective-yellow;
         
     }
     .compare-list{
@@ -191,5 +191,154 @@
             }
         }
 
+    }
+}
+
+.feedback-div {
+
+    position: relative;
+    width: 100%;
+    margin-bottom: 64px;
+    h1 {
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        gap: 32px;
+        margin-top: 32px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 16px;
+            width: 250px;
+            height: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            padding: 16px;
+
+            .comment {
+                font-style: italic;
+            }
+        }
+        .rate-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 4px;
+        }
+        .stars img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .profile img {
+            max-width: 50px;
+            border-radius: 50%;
+            max-height: 100px;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+        }
+
+        .username {
+            margin-top: 6px;
+            font-weight: lighter;
+            font-size: smaller;
+        }
+    }
+}
+
+.feedback-div::before {
+
+    max-height: 550px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    margin-left: -50vw;
+    background: linear-gradient(to bottom, $vanilla, #ffffff);
+    z-index: -10;
+    top: 0;
+}
+
+.learn-more-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    .buy-now-button {
+        background-color: $selective-yellow;
+        color: $bistre-2;
+        padding: 16px 32px;
+        border-radius: 32px;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 32px; 
+        border: 2px solid white;
+        
+        &:hover {
+            background-color: $vanilla;
+            color: $selective-yellow;
+            border: 2px solid $selective-yellow;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: $selective-yellow;
+            color: $bistre-2;
+            cursor: grabbing;
+        }
+    }
+
+
+    .learn-more-button {
+        background-color: white;
+        color: $bistre-2;
+        padding: 16px 32px;
+        border-radius: 32px;
+        border : 2px solid $bistre-2;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 32px;
+
+        &:hover {
+            background-color: $selective-yellow;
+            color: white;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: $selective-yellow;
+            color: white;
+            cursor: grabbing;
+        }
+    }
+
+    a {
+        color: $bistre-2;
+        text-decoration: none;
     }
 }

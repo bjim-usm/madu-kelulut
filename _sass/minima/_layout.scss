@@ -13,6 +13,11 @@
   top: 0;
   z-index: 1000; // Ensure it stays above other content
   background-color: $background-color; // Ensure background color is set
+
+  &.scrolled {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 12px 0px
+  }
+
 }
 
 .site-title {
@@ -113,7 +118,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background-color: $ecru;
+  background-color: $selective-yellow;
   h1, h2, h3, h4, h5, h6 {
     // color: $beige;
     margin: 0px
@@ -149,7 +154,7 @@
   
       &:hover {
         > a {
-          background-color: $beige;
+          background-color: $vanilla;
          
         }
   
@@ -183,7 +188,7 @@
         display: block;
   
         &:hover {
-          background-color: $beige;
+          background-color: $vanilla;
          
         }
       }
@@ -204,7 +209,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $beige;
+  color: $vanilla;
   margin-left: -$spacing-unit * 0.5;
   @extend %clearfix;
 }

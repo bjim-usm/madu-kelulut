@@ -37,6 +37,11 @@ $bistre: rgba(66, 37, 21, 1);
 $ecru: rgba(216, 192, 143, 1);
 $bistre-2: rgba(46, 27, 17, 1);
 
+$vanilla: #FFF7D4;
+$dark-yellow: #C07F00;
+$selective-yellow: #FFD95A;
+$black: #000000ff;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -71,5 +76,7 @@ $bistre-2: rgba(46, 27, 17, 1);
   "minima/syntax-highlighting",
   "minima/menu",
   "minima/index",
-  "minima/recipe"
+  "minima/recipe",
+  "minima/product",
+  "minima/contact"
 ;
